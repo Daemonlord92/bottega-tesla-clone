@@ -1,0 +1,122 @@
+/*Header Style*/
+#header{
+    display: inline;
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#header img{
+    height: 15px;
+    width: 130px;
+   
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 38%;
+    margin-right: 10px;
+    font-size: 1em;
+    
+}
+.navbar li{
+    margin: 20px;
+}
+.navbar li:hover{
+    color: lightgrey;
+}
+.signin{
+    position: fixed;
+    top: 0;
+    right: 5%;
+    font-size: 1.25em;
+}
+.signin li{
+    margin: 15px;
+}
+
+/*Body content*/
+.mid-cen{
+    display: inline;
+    position: fixed;
+    top: 18%;
+    left: 20%;
+    font-size: 1.25em;
+    max-width: 700px;
+    text-align: center;
+}
+
+.mid-cen-text{
+    position: fixed;
+    display: inline;
+    top: 38%;
+    left: 20%;
+    font-size: 0.85em;
+}
+.mid-cen-text li {
+    padding: 10px 25px;
+    margin: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+.mid-cen-text p {
+    position: fixed;
+    right: 48%;
+}
+
+
+
+
+/*footer content*/
+#footer{
+    bottom: 0;
+    right: 30%;
+    position: fixed;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#footer li{
+    margin: 10px;
+    font-size: 0.85em;
+}
+#footer img{
+    height: 15px;
+    width: 25px;
+}
+
+/*video background*/
+#video-background{
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100; 
+}
+
+
+/* peusdo code*/
+ul{
+    list-style: none !important;
+    text-decoration: none;
+}
+li{
+    display: inline;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none !important;
+}
+a:link{
+    color: white;
+}
+html{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
